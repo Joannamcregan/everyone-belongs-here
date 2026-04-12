@@ -9,9 +9,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+    <main id="main">
         <h1>We Believe Everyone Belongs Here</h1>
         <p>We are Noble community members who want to help keep our immigrant neighbors safe. We see what is happening across our country and we want to be ready to help each other however we can.</p>
-        <p class="centered-text"><strong>Our next meeting will take place on Sunday, April 12, 2026 in Meeting Room A at the Noble Public Library.</strong> <span class="underlined-text">We will not ask about anyone's immigration status</span> - all are welcome. If you can’t make it but still want to talk to us, you can email us at xxxx</p>
+        <p class="centered-text"><strong>Our next meeting will take place on Sunday, April 12, 2026 at the Noble Public Library.</strong> <span class="underlined-text">We will not ask about anyone's immigration status</span> - all are welcome. If you can’t make it but still want to talk to us, you can email us at xxxx</p>
+        <!-- I removed "in Meeting Room A" because I think it might translate weirdly but I could be wrong about that -->
     </main>
+    <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
